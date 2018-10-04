@@ -1,10 +1,10 @@
-# ------------- BluffBall - use bookie's odds to optimise fantasy premier league performance ----------------
-
 library(shiny)
 library(shinyLP)
 library(shinydashboard)
 library(shinythemes)
 library(ggplot2)
+library(lubridate)
+library(data.table)
 
 # Get representation variables
 vars <- readRDS('./Utils/representation variables.rds')
